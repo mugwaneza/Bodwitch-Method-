@@ -1,0 +1,46 @@
+
+ 
+
+
+ 
+                 
+     Queries to create table and database , here we use mysql serve 5.6
+      ----------------------------
+
+   Create database matlabcomp;
+
+       CREATE TABLE matlabcomp.adjusted (
+  id int(12) NOT NULL AUTO_INCREMENT,
+  var1 double DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 11
+AVG_ROW_LENGTH = 1638
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+
+  CREATE TABLE matlabcomp.angle_degrees (
+  id int(12) NOT NULL AUTO_INCREMENT,
+  var1 double DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 11
+AVG_ROW_LENGTH = 1638
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+CREATE TABLE matlabcomp.matrixtable (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  var1 double DEFAULT NULL,
+  var2 double DEFAULT NULL,
+  var3 double DEFAULT NULL,
+  PRIMARY KEY (id)
+)
+ENGINE = INNODB
+AUTO_INCREMENT = 11
+AVG_ROW_LENGTH = 1638
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
